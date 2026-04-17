@@ -138,3 +138,5 @@ set showcmd
 set incsearch
 set hls
 set foldmethod=marker
+
+nnoremap mozf :let @+ = expand('%')<cr>
